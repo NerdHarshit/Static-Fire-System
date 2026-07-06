@@ -56,7 +56,7 @@ static const uint16_t TCP_PORT = 8080;
 #define HX_SCK       3
 // calibration factor: negative = load cell wired in pulling direction
 // Re-calibrate: weigh a known mass, adjust until get_units() returns grams
-static const float HX_CALIBRATION =  -8.7332f;  // raw/gram  (tune per cell)
+static const float HX_CALIBRATION =  -38.2349f;  // raw/gram  (tune per cell)
 static const float GRAMS_TO_NEWTONS = 0.00980665f;
 
 // ---- Pyro ----
